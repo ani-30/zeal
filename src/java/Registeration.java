@@ -53,7 +53,7 @@ public class Registeration extends HttpServlet {
         {
             out.println("<script>alert('plz enter all the required details')</script>");
             
-                        out.println("<script>alert('You are succesfully Registered')</script>");
+                     
                            RequestDispatcher rs=request.getRequestDispatcher("signup.html");
                         rs.include(request,response);
         }
